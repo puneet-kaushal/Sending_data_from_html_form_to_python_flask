@@ -3,7 +3,7 @@
 
 ## Key features for HTML  page
 <ol>
-  <li>For the front end, we create a page in <strong>HTML language</strong>, with the help of this language we create a form in which we define name, password, email, phone with a text field.</li>
+  <li>We create a front end page in <strong>HTML language</strong>, with the help of this language we create a form in which we define name, password, email, phone with a text field.</li>
   <li>On submit,<strong>from action</strong> will send the form data to a file named <strong>"http://localhost:5000/login"</strong> (to process the input)</li>
   <li>In <strong>password field </strong> we define input pattern attribute in which we provide the condition for a password, this condition will contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters.</li>
   <li>To check the password, we used a<strong> checkbox attribute</strong> in which a password will be visible. With the help of <strong>javascript</strong>,<strong>(script tags)</strong> use to define the condition for a checkbox. </li>
