@@ -10,7 +10,7 @@
   <li>Now to select a gender, we used a <strong> radio button</strong> with values.  </li>
   <li>We create a field for email, in which <strong>input pattern attribute</strong> is use to define a format for email. Format will be <strong>@gmail.com</strong>. If an email does not match with a pattern it will show the <strong>title</strong> message. </li>
   <li>In phone code, we used a <strong>select tag</strong> for drop-down list and <strong>option tag</strong> for a number of options.</li>
-  <li>To define phone, we use the <strong>input pattern attribute</strong> in this pattern we define a regular expression. [7896] the number will start from 9 or 8 or 7 or 6, in second part [0-9] we can enter any number between 0 to 9. last part will indicate {9} index number it will be from 0 to 9 only 10 number.</li>
+  <li>In the phone filed,the <strong>input pattern attribute</strong> is used to define a regular expression. [7896] the number will start from 9 or 8 or 7 or 6, in second part [0-9] we can enter any number between 0 to 9. last part will indicate {9} index number it will be from 0 to 9 only 10 number.</li>
   <li>To submit your form, we use the<strong> submit button<strong> and close all the tags of the HTML document.</li>
   <li></li>
   <li></li>
