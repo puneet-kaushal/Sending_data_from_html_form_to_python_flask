@@ -5,7 +5,9 @@
 <ol>
   <li>We create a front end page in <strong>HTML language</strong>,in this page we define a name, password, email, phone with a text field.</li>
   <li>On submit,<strong>from action</strong> will send the form data to a file named or link <strong>"http://localhost:5000/login"</strong> (to process the input)</li>
-  
+  <li><strong>method attribute</strong> specifies how to send form-data. The form-data is sent to the page specified in the action attribute.Value of method = POST or GET</li>
+  <li><strong>GET method</strong> used to send as URL variable and length of a URL is limited about 3000 characters. Never use GET to send sensitive data because data will be visible in the URL</li>
+  <li>The <strong>POST method</strong> is used to send form-data inside the body of the HTTP request and data is not shown is in URL</li>
   <li>In the <strong>password field </strong>, we define a <strong>input pattern attribute</strong> in which we can define the condition for a password, this condition will contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters.</li>
   <li>To show the password, we used a<strong> checkbox attribute</strong> in which a password will be visible. With the help of <strong>javascript</strong>,the <strong>script tags</strong> use to define the condition for a checkbox. </li>
   <li>Now to select a gender, we used a <strong> radio button</strong> with values.  </li>
