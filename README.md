@@ -5,13 +5,18 @@
 <ol>
   <li>We create a front end page in <strong>HTML language</strong>,in this page we define a name, password, email, phone with a text field.</li>
   <li>On submit,<strong>from action</strong> will send the form data to a file named or link <strong>"http://localhost:5000/login"</strong> (to process the input)</li>
+  
   <li>In the <strong>password field </strong>, we define a <strong>input pattern attribute</strong> in which we can define the condition for a password, this condition will contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters.</li>
   <li>To show the password, we used a<strong> checkbox attribute</strong> in which a password will be visible. With the help of <strong>javascript</strong>,the <strong>script tags</strong> use to define the condition for a checkbox. </li>
   <li>Now to select a gender, we used a <strong> radio button</strong> with values.  </li>
   <li>We create a field for email, in which <strong>input pattern attribute</strong> is use to define a format for email. Format will be <strong>@gmail.com</strong>. If an email does not match with a pattern it will show the <strong>title</strong> message. </li>
   <li>In phone code, we used a <strong>select tag</strong> for drop-down list and <strong>option tag</strong> for a number of options.</li>
   <li>In the phone filed,the <strong>input pattern attribute</strong> is used to define a regular expression. [7896] the number will start from 9 or 8 or 7 or 6, in second part [0-9] we can enter any number between 0 to 9. last part will indicate {9} index number it will be from 0 to 9 only 10 number.</li>
-  <li>To submit your form, we use the<strong> submit button<strong> and close all the tags of the HTML document.</li>
+  <li>To submit your form, use the<strong> submit button</strong> and close all the tags of the HTML document.</li>
+  </ol>
+  
+  
+  <ol>
   <li></li>
   <li></li>
   <li></li>
