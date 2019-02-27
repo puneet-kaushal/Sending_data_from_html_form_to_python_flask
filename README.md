@@ -22,11 +22,11 @@
   
   ## Key feature for python page
   <ol>
-  <li>We used a flask in the backend to make a connection between the HTML page and python page. flask is a web application framework and written in python. Framework is a collection of libraries and modules that allows web developer to write a application</li>
-  <li><strong>import flask</strong> module in the project, is a mandatory object for flask class  </li>
-  <li>To make a connection with the database, we need to <strong>import MySQL connector</strong></li>
-  <li>flask constructor takes the name of the current module (__name__) as an argument</li>
-  <li>The <strong>route()</strong>function of the flask class is a decoder, which tells the application which URL should call the associated function</li>
+  <li>We used a flask in the backend to make a connection between the HTML page and python page. flask is a web application framework and written in python. Framework is a collection of libraries and modules that allows web developer to write a application.</li>
+  <li><strong>import flask</strong> module in the project is a mandatory. Object of flask class is our WSGI application. </li>
+  <li>To make a connection with the database, we need to <strong>import MySQL connector</strong>.</li>
+  <li>flask constructor takes the name of the current module (__name__) as an argument.</li>
+  <li>The <strong>route()</strong>function of the flask class is a decoder, which tells the application which URL should call the associated function.</li>
   <li>In the <strong>@app.route()</strong>, we also define the methods to send data. Methods will be the same as in the HTML page. </li>
   <li>If methods= ['POST']  <br>
     syntax of request method is:-  <br>  
@@ -52,12 +52,12 @@
       phonecode=str(phonecode)<br>
       phone = request.args.get('phone')<br>
       phone=str(phone)</li>
-  <li>Now create a connection with the database we need to fill the details of mysql host, user, password, name_of_database.</li>
+  <li>Now create a connection with the database we need to fill the details of Mysql host, user, password and name_of_the_database.</li>
   <li>Define object with object method.</li>
   <li>Apply <strong>insert query</strong> to insert details into the database.</li>
   <li><strong>commit()</strong> method to store data into the database. </li>
-  <li><strong>run()</strong> method of class runs the application on the local development server.</li>
-  <li>Default value of debug = False, set it True(provide debug information) </li>
+  <li><strong>run()</strong> method of flask class runs the application on the local development server.</li>
+  <li>Defaults value of debug = false. If set to true, provides a debug information. </li>
 </ol>
 
 ### How to run this file
