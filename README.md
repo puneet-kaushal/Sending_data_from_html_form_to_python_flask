@@ -28,17 +28,33 @@
   <li>flask constructor takes the name of the current module (__name__) as an argument</li>
   <li>The <strong>route()</strong>function of the flask class is a decoder, which tells the application which URL should call the associated function</li>
   <li>In the <strong>@app.route()</strong>, we also define the methods to send data. MethodS will be the same as in the HTML page. </li>
-  <li>If methods= ['POST']  
-    syntax of request method is  
-    if request.method == 'POST':# request method to use 'POST'
-      username = request.form['username']# syntax to use get() method &&&&
-      password = request.form['password']
-      gender = request.form['Gender']
-      email = request.form['email']
-      phonecode = request.form['phonecode']
-      phonecode=str(phonecode)
-      phone = request.form['phone']
+  <li>If methods= ['POST']  <br>
+    syntax of request method is <br> 
+    if request.method == 'POST': <br>
+      username = request.form['username']  <br>
+      password = request.form['password'] <br>
+      gender = request.form['Gender'] <br>
+      email = request.form['email'] <br>
+      phonecode = request.form['phonecode'] <br>
+      phonecode=str(phonecode) <br>
+      phone = request.form['phone'] <br>
       phone=str(phone)</li>
+  <li>If methods= ['GET']  <br>
+    syntax of request method is <br> 
+    if request.method == 'GET': <br>
+      username = request.args.get('username')<br>
+      password = request.args.get('password')<br>
+      gender = request.args.get('Gender')<br>
+      email = request.args.get('email')<br>
+      phonecode = request.args.get('phonecode')<br>
+      phonecode=str(phonecode)<br>
+      phone = request.args.get('phone')<br>
+      phone=str(phone)</li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
   <li></li>
   <li></li>
 </ol>
