@@ -55,8 +55,8 @@
   <li>Now create a connection with the database we need to fill the details of mysql host, user, password, name_of_database.</li>
   <li>Define object with object method.</li>
   <li>Apply <strong>insert query</strong> to insert details into the database.</li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li><strong>commit()</strong> method to store data into database. </li>
+  <li><strong>run()</strong> method of class runs the application on the local development server.</li>
+  <li>Default value of debug = False, set it True(provide debug information) </li>
   <li></li>
 </ol>
