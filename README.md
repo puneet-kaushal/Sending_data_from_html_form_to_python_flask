@@ -63,3 +63,10 @@
 ### How to run this file
  To run this file, we need to install flask in our system.
 Store both the files (.html and .py) in one location.
+<ol>
+  <li>First step:- To run .py files-> open terminal-> python3 myfile.py(file name)</li>
+  <li>Second step:- Right click on .html-> open in selected browser.</li>
+  </ol>
+  
+  
+
