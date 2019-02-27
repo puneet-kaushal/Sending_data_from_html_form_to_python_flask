@@ -22,7 +22,7 @@
   
   ## Key feature for python page
   <ol>
-  <li>we use flask in the backend to make a connection between the HTML page and python page. flask is a web application framework and written in python.</li>
+  <li>we use flask in the backend to make a connection between the HTML page and<br> python page. flask is a web application framework and written in python.</li>
   <li><strong>import flask</strong> module in the project is a mandatory object of flask class  </li>
   <li>To make a connection with the database, we need to <strong>import MySQL connector</strong></li>
   <li>flask constructor takes the name of the current module (__name__) as an argument</li>
@@ -41,7 +41,7 @@
       phone = request.form['phone'] <br>
       phone=str(phone)</li>
   <li>If methods= ['GET']  <br>
-    syntax of request method is <br>   
+    syntax of request method is:- <br>   
   
     if request.method == 'GET': <br>
       username = request.args.get('username')<br>
@@ -52,9 +52,9 @@
       phonecode=str(phonecode)<br>
       phone = request.args.get('phone')<br>
       phone=str(phone)</li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Now create a connection with the database we need to fill the details of mysql host, user, password, name_of_database.</li>
+  <li>Define object with object method.</li>
+  <li>Apply <strong>insert query</strong> to insert details into the database.</li>
   <li></li>
   <li></li>
   <li></li>
