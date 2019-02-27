@@ -20,16 +20,25 @@
   ![htmldow](https://user-images.githubusercontent.com/47202519/53476378-41822900-3a98-11e9-98f2-503d4f1155d6.png)
   
   
-  
-  
+  ## Key feature for python page
   <ol>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>we use flask in the backend to make a connection between the HTML page and python page. flask is a web application framework and written in python.</li>
+  <li><strong>import flask</strong> module in the project is a mandatory object of flask class  </li>
+  <li>To make a connection with the database, we need to <strong>import MySQL connector</strong></li>
+  <li>flask constructor takes the name of the current module (__name__) as an argument</li>
+  <li>The <strong>route()</strong>function of the flask class is a decoder, which tells the application which URL should call the associated function</li>
+  <li>In the <strong>@app.route()</strong>, we also define the methods to send data. MethodS will be the same as in the HTML page. </li>
+  <li>If methods= ['POST']    
+  syntax of request method is    
+     if request.method == 'POST':# request method to use 'POST'
+      username = request.form['username']# syntax to use get() method &&&&
+      password = request.form['password']
+      gender = request.form['Gender']
+      email = request.form['email']
+      phonecode = request.form['phonecode']
+      phonecode=str(phonecode)
+      phone = request.form['phone']
+      phone=str(phone)</li>
   <li></li>
   <li></li>
 </ol>
