@@ -22,7 +22,7 @@
   
   ## Key feature for python page
   <ol>
-  <li>we use flask in the backend to make a connection between the HTML page and python page. flask is a web application framework and written in python. Framework is a collection of libraries and modules that allows web developer to write a application</li>
+  <li>We used a flask in the backend to make a connection between the HTML page and python page. flask is a web application framework and written in python. Framework is a collection of libraries and modules that allows web developer to write a application</li>
   <li><strong>import flask</strong> module in the project, is a mandatory object for flask class  </li>
   <li>To make a connection with the database, we need to <strong>import MySQL connector</strong></li>
   <li>flask constructor takes the name of the current module (__name__) as an argument</li>
