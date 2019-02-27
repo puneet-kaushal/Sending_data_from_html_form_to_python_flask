@@ -27,9 +27,10 @@
   <li>To make a connection with the database, we need to <strong>import MySQL connector</strong></li>
   <li>flask constructor takes the name of the current module (__name__) as an argument</li>
   <li>The <strong>route()</strong>function of the flask class is a decoder, which tells the application which URL should call the associated function</li>
-  <li>In the <strong>@app.route()</strong>, we also define the methods to send data. MethodS will be the same as in the HTML page. </li>
+  <li>In the <strong>@app.route()</strong>, we also define the methods to send data. Methods will be the same as in the HTML page. </li>
   <li>If methods= ['POST']  <br>
-    syntax of request method is <br> 
+    syntax of request method is:-  <br>  
+    
     if request.method == 'POST': <br>
       username = request.form['username']  <br>
       password = request.form['password'] <br>
@@ -40,7 +41,8 @@
       phone = request.form['phone'] <br>
       phone=str(phone)</li>
   <li>If methods= ['GET']  <br>
-    syntax of request method is <br> 
+    syntax of request method is <br>   
+  
     if request.method == 'GET': <br>
       username = request.args.get('username')<br>
       password = request.args.get('password')<br>
