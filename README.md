@@ -28,9 +28,9 @@
   <li>flask constructor takes the name of the current module (__name__) as an argument</li>
   <li>The <strong>route()</strong>function of the flask class is a decoder, which tells the application which URL should call the associated function</li>
   <li>In the <strong>@app.route()</strong>, we also define the methods to send data. MethodS will be the same as in the HTML page. </li>
-  <li>If methods= ['POST']    
-  syntax of request method is    
-     if request.method == 'POST':# request method to use 'POST'
+  <li>If methods= ['POST']  
+    syntax of request method is  
+    if request.method == 'POST':# request method to use 'POST'
       username = request.form['username']# syntax to use get() method &&&&
       password = request.form['password']
       gender = request.form['Gender']
