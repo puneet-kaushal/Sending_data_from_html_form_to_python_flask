@@ -2,9 +2,31 @@
 <html>  <!--  Defines an HTML document -->
 <head>  <!-- Defines information about the document -->
 	<title> register form</title> <!-- define title of document  display in the tab-->
+	<style>
+		body{background-image:url('img/back.jpg');
+		background-size: cover;}
+		.insertfrm{
+		width: 35%;
+		margin: 73px auto;
+		background: #c7d5dc;
+		padding: 46px 26px;
+		border-radius: 5px;
+		color: #464444;
+		box-shadow: 1px 0px 22px #928e8e;}
+
+	</style>
+	<!-- syntax to upload background image background-image:url('img/back.jpg')
+	     background-size: cover- use to define image size
+
+	     width will define the form width
+	     margin:- location of form
+	     background: #c7d5dc :- define background color for form
+	     padding: use form border 46px(height) 26px(width)
+	     color: color for written content
+	     box-shadow : use for shadow effect-->
 </head>
-<body>
-<form action="http://localhost:5000/login" method="POST" >
+<body >
+<form action="http://localhost:5000/login" method="POST" class="insertfrm">
 <!--
    action attribute specifies where to send the form-data when a form is submitted.
    POST - Sends the form-data as an HTTP post transaction -->
@@ -68,7 +90,8 @@
 				Email :
 		</td>
 		<td>
-			<input type="text" placeholder="Email" pattern=".+@gmail.com" name="email"  title="Enter valid email " required>
+			<input type="text" placeholder="Email" pattern=".+@gmail.com" name="email"  title="Enter valid email " requir
+				   ed>
 			 <!--
 			 	1) placeholder - short hint is displayed in the input field before the  user enters a value. -->
 		</td>
@@ -86,7 +109,7 @@
 				<option value="+92">+92</option>
 				<option value="+93">+93</option>
 			</select>
-			<input type="text" pattern="[7896][0-9]{8}" placeholder="98********" name="phone"  title=" Enter correct no  " required>
+			<input type="text" pattern="[7896][0-9]{9}" placeholder="98********" name="phone"  title=" Enter correct no  " required>
 			<!--pattern - starting with 9 or 8 or 7 or 6, we can enter any numbers between 0 to 9, indexing {9}= it start from {0,1.....,9} so total no will be 10)  -->
 		</td>
 	</tr>
