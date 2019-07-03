@@ -68,5 +68,7 @@ Store both the files (.html and .py) in one location.
   <li>Second step:- Right click on .html-> open in selected browser.</li>
   </ol>
   
+  Thanks for visiting.
+  
   
 
